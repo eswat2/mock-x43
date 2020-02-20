@@ -7,7 +7,7 @@ a simple mock api server built on ZEIT...
 
 - [root][api-root]
 - [api][api-api]
-- [api/color][api-color]
+- [api/colors][api-colors]
 - [api/hash][api-hash]
 - [api/slug][api-slug]
 - [api/uuid][api-uuid]
@@ -34,18 +34,18 @@ Now CLI 17.0.3 dev (beta) — https://zeit.co/feedback
 ## who
 
 - Richard Hess
-- [https://eswat2.github.io][eswat2-io]
+- [eswat2.github.io][eswat2-io]
 
 
-[eswat2-io]: https://eswat2.github.io
+[eswat2-io]:  https://eswat2.github.io
 
-[api-root]:  https://mock-x43.eswat2.now.sh/
-[api-api]:   https://mock-x43.eswat2.now.sh/api
-[api-color]: https://mock-x43.eswat2.now.sh/api/color
-[api-hash]:  https://mock-x43.eswat2.now.sh/api/hash
-[api-slug]:  https://mock-x43.eswat2.now.sh/api/slug
-[api-uuid]:  https://mock-x43.eswat2.now.sh/api/uuid
+[api-root]:   https://mock-x43.eswat2.now.sh/
+[api-api]:    https://mock-x43.eswat2.now.sh/api
+[api-colors]: https://mock-x43.eswat2.now.sh/api/colors
+[api-hash]:   https://mock-x43.eswat2.now.sh/api/hash
+[api-slug]:   https://mock-x43.eswat2.now.sh/api/slug
+[api-uuid]:   https://mock-x43.eswat2.now.sh/api/uuid
 
-[chance-js]: https://chancejs.com/
+[chance-js]:  https://chancejs.com/
 
 

@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/api/color",
-      "dest": "/api/color.js"
+      "src": "/api/colors",
+      "dest": "/api/colors.js"
     },
     {
       "src": "/api/hash",
