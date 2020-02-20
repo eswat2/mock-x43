@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/hash",
+      "dest": "/api/hash.js"
+    },
+    {
+      "src": "/api/slug",
+      "dest": "/api/slug.js"
+    },
+    {
+      "src": "/api/uuid",
+      "dest": "/api/uuid.js"
+    },
+    {
+      "src": "/api",
+      "dest": "/api/greetings.js"
+    },
+    {
+      "src": "/",
+      "dest": "/api/hello.js"
+    }
+  ]
+}

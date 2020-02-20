@@ -1,0 +1,28 @@
+{
+  "name": "mock-x43",
+  "version": "0.0.2",
+  "description": "prototype - simple mock api server on ZEIT...",
+  "author": "eswat2",
+  "repository": "eswat2/gt-sports",
+  "license": "MIT",
+  "main": "server.js",
+  "dependencies": {
+    "chance": "1.1.4",
+    "express": "4.17.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "cc": "prettier --check './**/*.js'",
+    "spell": "cspell './**/*.js'",
+    "test": "echo skipping...",
+    "deploy": "now --prod",
+    "open": "open https://mock-x43.eswat2.now.sh"
+  }
+}
