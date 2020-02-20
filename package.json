@@ -18,5 +18,8 @@
     "test": "echo skipping...",
     "deploy": "now --prod",
     "open": "open https://mock-x43.eswat2.now.sh"
+  },
+  "dependencies": {
+    "chance": "^1.1.4"
   }
 }
