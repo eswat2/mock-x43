@@ -1,0 +1,51 @@
+# mock-x43
+
+a simple mock api server built on ZEIT...
+
+
+## deployed
+
+- [root][api-root]
+- [api][api-api]
+- [api/color][api-color]
+- [api/hash][api-hash]
+- [api/slug][api-slug]
+- [api/uuid][api-uuid]
+
+
+## usage
+
+- `yarn`
+- `yarn dev` - _uses now dev_
+
+```
+➜  mock-x43 git:(master) ✗ yarn dev
+yarn run v1.22.0
+warning ../package.json: No license field
+$ now dev
+Now CLI 17.0.3 dev (beta) — https://zeit.co/feedback
+> Ready! Available at http://localhost:3000
+```
+
+## dependencies
+
+- [Chance][chance-js]
+
+## who
+
+- Richard Hess
+- [https://eswat2.github.io][eswat2-io]
+
+
+[eswat2-io]: https://eswat2.github.io
+
+[api-root]:  https://mock-x43.eswat2.now.sh/
+[api-api]:   https://mock-x43.eswat2.now.sh/api
+[api-color]: https://mock-x43.eswat2.now.sh/api/color
+[api-hash]:  https://mock-x43.eswat2.now.sh/api/hash
+[api-slug]:  https://mock-x43.eswat2.now.sh/api/slug
+[api-uuid]:  https://mock-x43.eswat2.now.sh/api/uuid
+
+[chance-js]: https://chancejs.com/
+
+
