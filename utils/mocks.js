@@ -1,40 +1,40 @@
-const Chance = require("chance")
-const { lorem } = require("./lorem")
+const Chance = require('chance')
+const { lorem } = require('./lorem')
 
 const chance = new Chance()
 
 const colors = [
-  "red",
-  "green",
-  "blue",
-  "yellow",
-  "purple",
-  "mint green",
-  "teal",
-  "white",
-  "black",
-  "orange",
-  "pink",
-  "grey",
-  "maroon",
-  "violet",
-  "turquoise",
-  "tan",
-  "sky blue",
-  "salmon",
-  "plum",
-  "orchid",
-  "olive",
-  "magenta",
-  "lime",
-  "ivory",
-  "indigo",
-  "gold",
-  "fuchsia",
-  "cyan",
-  "azure",
-  "lavender",
-  "silver"
+  'red',
+  'green',
+  'blue',
+  'yellow',
+  'purple',
+  'mint green',
+  'teal',
+  'white',
+  'black',
+  'orange',
+  'pink',
+  'grey',
+  'maroon',
+  'violet',
+  'turquoise',
+  'tan',
+  'sky blue',
+  'salmon',
+  'plum',
+  'orchid',
+  'olive',
+  'magenta',
+  'lime',
+  'ivory',
+  'indigo',
+  'gold',
+  'fuchsia',
+  'cyan',
+  'azure',
+  'lavender',
+  'silver',
 ]
 
 const delay = () => {
@@ -44,7 +44,7 @@ const delay = () => {
 const lipsum = () => chance.pickone(lorem)
 
 const slug = (count = 3) => {
-  return chance.unique(lipsum, count).join("-")
+  return chance.unique(lipsum, count).join('-')
 }
 
 function uuid(a) {
@@ -59,5 +59,5 @@ module.exports = {
   colors,
   lipsum,
   slug,
-  uuid
+  uuid,
 }
