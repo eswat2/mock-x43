@@ -8,12 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/api/colors",
-      "dest": "/api/colors.js"
-    },
-    {
       "src": "/api/hash",
       "dest": "/api/hash.js"
+    },
+    {
+      "src": "/api/lorem",
+      "dest": "/api/lorem.js"
     },
     {
       "src": "/api/slug",
