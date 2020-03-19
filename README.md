@@ -7,8 +7,8 @@ a simple mock api server built on ZEIT...
 
 - [root][api-root]
 - [api][api-api]
-- [api/colors][api-colors]
 - [api/hash][api-hash]
+- [api/lorem][api-lorem]
 - [api/slug][api-slug]
 - [api/uuid][api-uuid]
 
@@ -41,8 +41,8 @@ Now CLI 17.0.3 dev (beta) — https://zeit.co/feedback
 
 [api-root]:   https://mock-x43.eswat2.now.sh/
 [api-api]:    https://mock-x43.eswat2.now.sh/api
-[api-colors]: https://mock-x43.eswat2.now.sh/api/colors
 [api-hash]:   https://mock-x43.eswat2.now.sh/api/hash
+[api-lorem]:  https://mock-x43.eswat2.now.sh/api/lorem
 [api-slug]:   https://mock-x43.eswat2.now.sh/api/slug
 [api-uuid]:   https://mock-x43.eswat2.now.sh/api/uuid
 
