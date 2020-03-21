@@ -6,5 +6,5 @@ module.exports = (req, res) => {
   const num = count ? parseInt(count) : 1
   const indx = randomArray(num, lorem.length - 1)
 
-  res.json(indx.map(i => lorem[i]))
+  res.json(indx.map((i) => lorem[i]))
 }
