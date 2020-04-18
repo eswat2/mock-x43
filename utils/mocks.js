@@ -1,4 +1,5 @@
 const Chance = require('chance')
+const shortid = require('shortid')
 const { lorem } = require('./lorem')
 
 const chance = new Chance()
@@ -13,6 +14,8 @@ const randomArray = (length, max) =>
   Array(length)
     .fill()
     .map(() => Math.round(Math.random() * max))
+
+const shortId = () => shortid.generate()
 
 const slug = (count = 3) => {
   return chance.unique(lipsum, count).join('-')
@@ -29,6 +32,7 @@ module.exports = {
   delay,
   randomArray,
   lipsum,
+  shortId,
   slug,
   uuid,
 }
