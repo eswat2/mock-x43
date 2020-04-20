@@ -16,8 +16,12 @@
       "dest": "/api/lorem.js"
     },
     {
-      "src": "/api/shortId",
-      "dest": "/api/shortId.js"
+      "src": "/api/sfid",
+      "dest": "/api/sfid.js"
+    },
+    {
+      "src": "/api/sid",
+      "dest": "/api/sid.js"
     },
     {
       "src": "/api/slug",

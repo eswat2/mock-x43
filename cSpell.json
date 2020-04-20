@@ -5,7 +5,18 @@
   // language - current active spelling language
   "language": "en",
   // words - list of words to be always considered correct
-  "words": ["antialiased", "clrs", "eswat", "lipsum", "pickone", "pickset"],
+  "words": [
+    "antialiased",
+    "biguint",
+    "clrs",
+    "eswat",
+    "idgen",
+    "intformat",
+    "lipsum",
+    "pickone",
+    "pickset",
+    "sfid"
+  ],
   // NOTE: we are ignoring gt-sports because of the automotive names...
   "ignorePaths": ["lorem.js", "node_modules/**", "*.test.js"],
   // flagWords - list of words to be always considered incorrect

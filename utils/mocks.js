@@ -1,8 +1,11 @@
 const Chance = require('chance')
 const shortid = require('shortid')
+const intformat = require('biguint-format')
+const FlakeId = require('flake-idgen')
 const { lorem } = require('./lorem')
 
 const chance = new Chance()
+const idGen = new FlakeId()
 
 const delay = () => {
   return chance.integer({ min: 500, max: 3500 })
@@ -15,7 +18,14 @@ const randomArray = (length, max) =>
     .fill()
     .map(() => Math.round(Math.random() * max))
 
-const shortId = () => shortid.generate()
+// Note:  Snow Flake ID generator...
+const sfid = (hex) => {
+  const id = idGen.next()
+  return hex ? intformat(id, 'hex', { prefix: '0x' }) : intformat(id, 'dec')
+}
+
+// Note:  Short ID generator...
+const sid = () => shortid.generate()
 
 const slug = (count = 3) => {
   return chance.unique(lipsum, count).join('-')
@@ -32,7 +42,8 @@ module.exports = {
   delay,
   randomArray,
   lipsum,
-  shortId,
+  sfid,
+  sid,
   slug,
   uuid,
 }
