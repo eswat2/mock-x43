@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-biguint-format@^1.0.2:
+biguint-format@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/biguint-format/-/biguint-format-1.0.2.tgz#21e8d6c8259a8c9b39874ba6a060a1a8ec137f30"
   integrity sha512-A9/8NoHnszWRAp4WCrgwe70wMd0FVDB3pXTdKs78z3pgwHRhc/BGU3uO7Wmfp9ueWD5WpmncL1OpypGnvc1R3w==
@@ -12,7 +12,7 @@ chance@1.1.4:
   resolved "https://registry.yarnpkg.com/chance/-/chance-1.1.4.tgz#d8743bf8e40bb05e024c305ca1ff441195eb23db"
   integrity sha512-pXPDSu3knKlb6H7ahQfpq//J9mSOxYK8SMtp8MV/nRJh8aLRDIl0ipLH8At8+nVogVwtvPZzyIzY/EbcY/cLuQ==
 
-flake-idgen@^1.4.0:
+flake-idgen@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/flake-idgen/-/flake-idgen-1.4.0.tgz#a89db0f987d83e33b88bf9a8ac1a26d0c0b03b63"
   integrity sha512-l+dtBcIAwAPqmtDelZAAw0NzKOBosiu/3hAFH69W3n1rH8wkKN1hUp6SaR1tmH/NmzaCUQs1BFKULKVhqGWdMw==
@@ -22,10 +22,10 @@ nanoid@^2.1.0:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
   integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
 
-prettier@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.4.tgz#2d1bae173e355996ee355ec9830a7a1ee05457ef"
-  integrity sha512-SVJIQ51spzFDvh4fIbCLvciiDMCrRhlN3mbZvv/+ycjvmF5E73bKdGfU8QDLNmjYJf+lsGnDBC4UUnvTe5OO0w==
+prettier@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
+  integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
 
 shortid@2.2.15:
   version "2.2.15"
