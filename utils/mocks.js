@@ -1,4 +1,5 @@
 const Chance = require('chance')
+const { nanoid } = require('nanoid')
 const shortid = require('shortid')
 const intformat = require('biguint-format')
 const FlakeId = require('flake-idgen')
@@ -24,6 +25,9 @@ const sfid = (hex) => {
   return hex ? intformat(id, 'hex', { prefix: '0x' }) : intformat(id, 'dec')
 }
 
+// Note:  Nano ID generator...
+const nid = () => nanoid()
+
 // Note:  Short ID generator...
 const sid = () => shortid.generate()
 
@@ -42,6 +46,7 @@ module.exports = {
   delay,
   randomArray,
   lipsum,
+  nid,
   sfid,
   sid,
   slug,

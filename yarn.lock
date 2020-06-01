@@ -17,6 +17,11 @@ flake-idgen@1.4.0:
   resolved "https://registry.yarnpkg.com/flake-idgen/-/flake-idgen-1.4.0.tgz#a89db0f987d83e33b88bf9a8ac1a26d0c0b03b63"
   integrity sha512-l+dtBcIAwAPqmtDelZAAw0NzKOBosiu/3hAFH69W3n1rH8wkKN1hUp6SaR1tmH/NmzaCUQs1BFKULKVhqGWdMw==
 
+nanoid@3.1.9:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.9.tgz#1f148669c70bb2072dc5af0666e46edb6cd31fb2"
+  integrity sha512-fFiXlFo4Wkuei3i6w9SQI6yuzGRTGi8Z2zZKZpUxv/bQlBi4jtbVPBSNFZHQA9PNjofWqtIa8p+pnsc0kgZrhQ==
+
 nanoid@^2.1.0:
   version "2.1.11"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
