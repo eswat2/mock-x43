@@ -17,7 +17,7 @@
     "spell": "cspell './**/*.js'",
     "test": "echo skipping...",
     "deploy": "now --prod",
-    "open": "open https://mock-x43.eswat2.now.sh"
+    "open": "open https://mock-x43.vercel.app"
   },
   "dependencies": {
     "biguint-format": "1.0.2",

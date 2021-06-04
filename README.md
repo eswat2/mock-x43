@@ -39,12 +39,12 @@ Now CLI 17.0.3 dev (beta) — https://zeit.co/feedback
 
 [eswat2-io]:  https://eswat2.github.io
 
-[api-root]:   https://mock-x43.eswat2.now.sh/
-[api-api]:    https://mock-x43.eswat2.now.sh/api
-[api-hash]:   https://mock-x43.eswat2.now.sh/api/hash
-[api-lorem]:  https://mock-x43.eswat2.now.sh/api/lorem
-[api-slug]:   https://mock-x43.eswat2.now.sh/api/slug
-[api-uuid]:   https://mock-x43.eswat2.now.sh/api/uuid
+[api-root]:   https://mock-x43.vercel.app/
+[api-api]:    https://mock-x43.vercel.app/api
+[api-hash]:   https://mock-x43.vercel.app/api/hash
+[api-lorem]:  https://mock-x43.vercel.app/api/lorem
+[api-slug]:   https://mock-x43.vercel.app/api/slug
+[api-uuid]:   https://mock-x43.vercel.app/api/uuid
 
 [chance-js]:  https://chancejs.com/
 
