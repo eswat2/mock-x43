@@ -12,11 +12,11 @@
     "singleQuote": true
   },
   "scripts": {
-    "dev": "now dev",
+    "dev": "vc dev",
     "cc": "prettier --check './**/*.js'",
     "spell": "cspell './**/*.js'",
     "test": "echo skipping...",
-    "deploy": "now --prod",
+    "deploy": "vc --prod",
     "open": "open https://mock-x43.vercel.app"
   },
   "dependencies": {
