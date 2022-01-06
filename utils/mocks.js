@@ -3,7 +3,6 @@ const { nanoid } = require('nanoid')
 const shortid = require('shortid')
 const intformat = require('biguint-format')
 const FlakeId = require('flake-idgen')
-const { lorem } = require('./lorem')
 
 const chance = new Chance()
 const idGen = new FlakeId()
@@ -11,8 +10,6 @@ const idGen = new FlakeId()
 const delay = () => {
   return chance.integer({ min: 500, max: 3500 })
 }
-
-const lipsum = () => chance.pickone(lorem)
 
 const randomArray = (length, max) =>
   Array(length)
@@ -32,7 +29,7 @@ const nid = () => nanoid()
 const sid = () => shortid.generate()
 
 const slug = (count = 3) => {
-  return chance.unique(lipsum, count).join('-')
+  return chance.unique(chance.word, count, { length: 5 }).join('-')
 }
 
 function uuid(a) {
@@ -45,7 +42,6 @@ module.exports = {
   chance,
   delay,
   randomArray,
-  lipsum,
   nid,
   sfid,
   sid,
