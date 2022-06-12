@@ -1,8 +1,8 @@
-const Chance = require('chance')
-const { nanoid } = require('nanoid')
-const shortid = require('shortid')
-const intformat = require('biguint-format')
-const FlakeId = require('flake-idgen')
+import Chance from 'chance'
+import { nanoid } from 'nanoid'
+import shortid from 'shortid'
+import intformat from 'biguint-format'
+import FlakeId from 'flake-idgen'
 
 const chance = new Chance()
 const idGen = new FlakeId()
@@ -38,7 +38,7 @@ function uuid(a) {
     : ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, uuid)
 }
 
-module.exports = {
+export {
   chance,
   delay,
   randomArray,

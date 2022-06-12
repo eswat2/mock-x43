@@ -1,7 +1,7 @@
-const { lorem } = require('../utils/lorem')
-const { randomArray } = require('../utils/mocks')
+import { lorem } from '../utils/lorem.js'
+import { randomArray } from '../utils/mocks.js'
 
-module.exports = (req, res) => {
+export default (req, res) => {
   const { count } = req.query
   const num = count ? parseInt(count) : 1
   const indx = randomArray(num, lorem.length - 1)

@@ -250,6 +250,6 @@ const lorem = [
   'repellat',
 ]
 
-module.exports = {
+export {
   lorem,
 }

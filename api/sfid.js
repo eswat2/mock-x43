@@ -1,6 +1,6 @@
-const { chance, sfid } = require('../utils/mocks')
+import { chance, sfid } from '../utils/mocks.js'
 
-module.exports = (req, res) => {
+export default (req, res) => {
   const { count, hex } = req.query
   const flake = () => sfid(hex === 'true')
 

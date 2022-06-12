@@ -1,6 +1,6 @@
-const { chance, nid } = require('../utils/mocks')
+import { chance, nid } from '../utils/mocks.js'
 
-module.exports = (req, res) => {
+export default (req, res) => {
   const { count } = req.query
 
   res.setHeader('Access-Control-Allow-Origin', '*')

@@ -1,6 +1,6 @@
-const { slug } = require('../utils/mocks')
+import { slug } from '../utils/mocks.js'
 
-module.exports = (req, res) => {
+export default (req, res) => {
   const { count } = req.query
 
   res.setHeader('Access-Control-Allow-Origin', '*')
