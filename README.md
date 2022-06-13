@@ -1,22 +1,25 @@
 # mock-x43
 
-a simple mock api server built on ZEIT...
+a simple mock api server built on Vercel...
 
 
-## deployed
+## api
+> localhost:3000
 
-- [root][api-root]
-- [api][api-api]
 - [api/hash][api-hash]
 - [api/lorem][api-lorem]
+- [api/nid][api-nid]
+- [api/sfid][api-sfid]
+- [api/sid][api-sid]
 - [api/slug][api-slug]
 - [api/uuid][api-uuid]
+- [api/vins][api-vins]
 
 
 ## usage
 
 - `yarn`
-- `yarn dev` - _uses now dev_
+- `yarn dev` - _uses vercel dev_
 
 ```
 ➜  mock-x43 git:(master) ✗ yarn dev
@@ -39,12 +42,15 @@ Now CLI 17.0.3 dev (beta) — https://zeit.co/feedback
 
 [eswat2-io]:  https://eswat2.github.io
 
-[api-root]:   https://mock-x43.vercel.app/
-[api-api]:    https://mock-x43.vercel.app/api
-[api-hash]:   https://mock-x43.vercel.app/api/hash
-[api-lorem]:  https://mock-x43.vercel.app/api/lorem
-[api-slug]:   https://mock-x43.vercel.app/api/slug
-[api-uuid]:   https://mock-x43.vercel.app/api/uuid
+[api-hash]:   http://localhost:3000/api/hash
+[api-lorem]:  http://localhost:3000/api/lorem
+[api-nid]:    http://localhost:3000/api/nid
+[api-sfid]:   http://localhost:3000/api/sfid
+[api-sid]:    http://localhost:3000/api/sid
+[api-slug]:   http://localhost:3000/api/slug
+[api-uuid]:   http://localhost:3000/api/uuid
+[api-vins]:   http://localhost:3000/api/vins
+
 
 [chance-js]:  https://chancejs.com/
 
