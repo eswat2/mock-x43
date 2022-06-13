@@ -250,6 +250,4 @@ const lorem = [
   'repellat',
 ]
 
-export {
-  lorem,
-}
+export { lorem }
