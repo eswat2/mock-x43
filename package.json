@@ -17,7 +17,7 @@
     "cc": "prettier --check api utils tests",
     "format": "prettier --write api utils tests",
     "spell": "cspell './**/*.js'",
-    "test": "mocha ./tests/mocks.js",
+    "test": "mocha ./tests/*.js",
     "build": "yarn format",
     "predeploy": "yarn test; yarn version --patch",
     "deploy": "vc --prod",
