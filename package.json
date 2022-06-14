@@ -18,7 +18,8 @@
     "format": "prettier --write api utils tests",
     "spell": "cspell './**/*.js'",
     "test": "mocha ./tests/mocks.js",
-    "predeploy": "yarn version --patch",
+    "build": "yarn format",
+    "predeploy": "yarn test; yarn version --patch",
     "deploy": "vc --prod",
     "open": "open https://mock-x43.vercel.app"
   },

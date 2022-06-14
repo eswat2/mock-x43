@@ -1,4 +1,13 @@
-import { chance, delay, nid, randomArray, sfid, sid, slug, uuid } from '../utils/mocks.js'
+import {
+  chance,
+  delay,
+  nid,
+  randomArray,
+  sfid,
+  sid,
+  slug,
+  uuid,
+} from '../utils/mocks.js'
 import { expect } from 'chai'
 
 const checkNumber = (data, min, max) => {
@@ -43,9 +52,9 @@ describe('nid', () => {
 })
 
 describe('randomArray', () => {
-  const count = 10;
-  const min = 0;
-  const max = 20;
+  const count = 10
+  const min = 0
+  const max = 20
   const data = randomArray(count, max)
   console.log('-- randomArray:', data.toString())
   it('should return an array', () => {
@@ -54,7 +63,7 @@ describe('randomArray', () => {
   it(`should be ${count} items`, () => {
     expect(data.length).to.equal(count)
   })
-  data.map(item => {
+  data.map((item) => {
     checkNumber(item, min, max)
   })
 })
