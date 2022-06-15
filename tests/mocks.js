@@ -7,6 +7,7 @@ import {
   sid,
   slug,
   uuid,
+  api,
 } from '../utils/mocks.js'
 import { expect } from 'chai'
 
@@ -108,5 +109,58 @@ describe('mocks', () => {
     const limit = 36
     console.log('-- uuid:', data)
     checkString(data, limit)
+  })
+})
+
+describe('api', () => {
+  const keys = ['hash', 'lorem', 'nid', 'sfid', 'sid', 'slug', 'uuid', 'vins']
+  it(`should be an object... ${keys}`, () => {
+    expect(api)
+      .to.be.a('object')
+      .that.contains.all.keys(...keys)
+  })
+  keys.map((key) => {
+    describe(key, () => {
+      const counts = [2, 4, 8]
+      if (key === 'slug') {
+        it('should return a string by default, 3 words', () => {
+          const data = api[key]()
+          const words = data.split('-').length
+          expect(data).to.be.a('string')
+          expect(words).to.be.equal(3)
+        })
+        counts.map((count) => {
+          it(`should return a string, ${count} words`, () => {
+            const data = api[key](count)
+            const words = data.split('-').length
+            expect(data).to.be.a('string')
+            expect(words).to.be.equal(count)
+          })
+        })
+      } else {
+        it('should return a string by default', () => {
+          const data = api[key]()
+          expect(data).to.be.a('string')
+        })
+        counts.map((count) => {
+          const data = api[key](count)
+          it(`should return an array, ${count} items`, () => {
+            expect(data).to.be.a('array').that.have.lengthOf(count)
+          })
+        })
+        if (key === 'sfid') {
+          counts.map((count) => {
+            it(`should return an array, ${count} hex`, () => {
+              const data = api[key](count, true)
+              expect(data).to.be.a('array').that.have.lengthOf(count)
+              data.map((item) => {
+                expect(item[0]).to.be.equal('0')
+                expect(item[1]).to.be.equal('x')
+              })
+            })
+          })
+        }
+      }
+    })
   })
 })

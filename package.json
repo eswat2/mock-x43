@@ -21,7 +21,8 @@
     "build": "yarn format",
     "predeploy": "yarn test; yarn version --patch",
     "deploy": "vc --prod",
-    "open": "open https://mock-x43.vercel.app"
+    "open": "open https://mock-x43.vercel.app",
+    "sfid": "open https://mock-x43.vercel.app/api/sfid?hex=true"
   },
   "dependencies": {
     "biguint-format": "1.0.2",

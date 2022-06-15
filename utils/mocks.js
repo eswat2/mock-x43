@@ -3,6 +3,8 @@ import { nanoid } from 'nanoid'
 import shortid from 'shortid'
 import intformat from 'biguint-format'
 import FlakeId from 'flake-idgen'
+import vinGenerator from 'vin-generator'
+import { lorem } from '../utils/lorem.js'
 
 const chance = new Chance()
 const idGen = new FlakeId()
@@ -38,4 +40,28 @@ function uuid(a) {
     : ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, uuid)
 }
 
-export { chance, delay, randomArray, nid, sfid, sid, slug, uuid }
+// ------------------------------------------------------------------- [api]
+
+const api = {
+  hash: (count) =>
+    count ? chance.unique(chance.hash, parseInt(count)) : chance.hash(),
+  lorem: (count) => {
+    const num = count ? parseInt(count) : 1
+    const indx = randomArray(num, lorem.length - 1)
+    return num > 1 ? indx.map((i) => lorem[i]) : lorem[indx[0]]
+  },
+  nid: (count) => (count ? chance.unique(nid, parseInt(count)) : nid()),
+  sfid: (count, hex) => {
+    const flake = () => sfid(hex === 'true' || hex === true)
+    return count ? chance.unique(flake, parseInt(count)) : flake()
+  },
+  sid: (count) => (count ? chance.unique(sid, parseInt(count)) : sid()),
+  slug,
+  uuid: (count) => (count ? chance.unique(uuid, parseInt(count)) : uuid()),
+  vins: (count) =>
+    count
+      ? chance.unique(vinGenerator.generateVin, parseInt(count))
+      : vinGenerator.generateVin(),
+}
+
+export { chance, delay, randomArray, nid, sfid, sid, slug, uuid, api }

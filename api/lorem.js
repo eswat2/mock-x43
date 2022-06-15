@@ -1,11 +1,8 @@
-import { lorem } from '../utils/lorem.js'
-import { randomArray } from '../utils/mocks.js'
+import { api } from '../utils/mocks.js'
 
 export default (req, res) => {
   const { count } = req.query
-  const num = count ? parseInt(count) : 1
-  const indx = randomArray(num, lorem.length - 1)
 
   res.setHeader('Access-Control-Allow-Origin', '*')
-  res.json(indx.map((i) => lorem[i]))
+  res.json(api.lorem(count))
 }
