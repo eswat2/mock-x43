@@ -1,6 +1,6 @@
 {
   "name": "mock-x43",
-  "version": "0.0.54",
+  "version": "0.0.55",
   "description": "prototype - simple mock api server on ZEIT...",
   "author": "eswat2",
   "repository": "eswat2/mock-x43",
