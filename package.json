@@ -28,7 +28,7 @@
     "biguint-format": "1.0.2",
     "chance": "1.1.12",
     "flake-idgen": "1.4.0",
-    "nanoid": "5.0.7",
+    "nanoid": "5.0.8",
     "shortid": "2.2.16",
     "vin-generator": "1.0.1"
   },
