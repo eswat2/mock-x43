@@ -29,7 +29,7 @@
     "chance": "1.1.12",
     "flake-idgen": "1.4.0",
     "nanoid": "5.0.9",
-    "shortid": "2.2.16",
+    "shortid": "2.2.17",
     "vin-generator": "1.0.1"
   },
   "devDependencies": {
