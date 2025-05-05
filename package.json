@@ -6,6 +6,9 @@
   "repository": "eswat2/mock-x43",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
@@ -34,7 +37,7 @@
   },
   "devDependencies": {
     "chai": "5.2.0",
-    "cspell": "8.19.4",
+    "cspell": "9.0.0",
     "mocha": "11.2.2",
     "prettier": "3.5.3"
   }
