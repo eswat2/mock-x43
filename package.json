@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "chai": "6.0.1",
-    "cspell": "9.2.0",
+    "cspell": "9.2.1",
     "mocha": "11.7.1",
     "prettier": "3.6.2"
   }
