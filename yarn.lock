@@ -148,10 +148,10 @@
   resolved "https://registry.yarnpkg.com/@cspell/dict-dart/-/dict-dart-2.3.1.tgz#46bb78863fd72d59bdbd370a082b0f5044dfb1f3"
   integrity sha512-xoiGnULEcWdodXI6EwVyqpZmpOoh8RA2Xk9BNdR7DLamV/QMvEYn8KJ7NlRiTSauJKPNkHHQ5EVHRM6sTS7jdg==
 
-"@cspell/dict-data-science@^2.0.11":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-data-science/-/dict-data-science-2.0.11.tgz#7e600fe7b81880fe890482e3e5b301224f16038e"
-  integrity sha512-Dt+83nVCcF+dQyvFSaZjCKt1H5KbsVJFtH2X7VUfmIzQu8xCnV1fUmkhBzGJ+NiFs99Oy9JA6I9EjeqExzXk7g==
+"@cspell/dict-data-science@^2.0.11", "@cspell/dict-data-science@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-data-science/-/dict-data-science-2.0.12.tgz#5594fbe41e26243945597ea263792645875667c6"
+  integrity sha512-vI/mg6cI28IkFcpeINS7cm5M9HWemmXSTnxJiu3nmc4VAGx35SXIEyuLGBcsVzySvDablFYf4hsEpmg1XpVsUQ==
 
 "@cspell/dict-django@^4.1.5":
   version "4.1.5"
@@ -304,9 +304,9 @@
   integrity sha512-AirZcN2i84ynev3p2/1NCPEhnNsHKMz9zciTngGoqpdItUb2bDt1nJBjwlsrFI78GZRph/VaqTVFwYikmncpXg==
 
 "@cspell/dict-npm@^5.2.22":
-  version "5.2.22"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.22.tgz#8cd8bc70a2ae06ad043c68fd8b17da6c54abdfca"
-  integrity sha512-bepGmmRv7KmxULqfw88G9wxkpIAQA96YyrfKpfg4RHnQLxpmzoRnZGtK5S9JH7Hlf5LEd1gkOF7dtCE6cek67w==
+  version "5.2.24"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-npm/-/dict-npm-5.2.24.tgz#24fc85f988813b7d43985f32f453f9b6657f8449"
+  integrity sha512-R+s2SC7tQCxmV6nZxkmwdR2ruSDerAkbBjIAuAcH9ZXdpacTghSDcHJtSyBYnbcLFq8Bdp3cGB+J6vCRbw3pyw==
 
 "@cspell/dict-php@^4.1.0":
   version "4.1.0"
@@ -324,11 +324,11 @@
   integrity sha512-cJEOs901H13Pfy0fl4dCD1U+xpWIMaEPq8MeYU83FfDZvellAuSo4GqWCripfIqlhns/L6+UZEIJSOZnjgy7Wg==
 
 "@cspell/dict-python@^4.2.21":
-  version "4.2.21"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-python/-/dict-python-4.2.21.tgz#f2319b3aca1559b319184aae200fc010957df1a5"
-  integrity sha512-M9OgwXWhpZqEZqKU2psB2DFsT8q5SwEahkQeIpNIRWIErjwG7I9yYhhfvPz6s5gMCMhhb3hqcPJTnmdgqGrQyg==
+  version "4.2.22"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-python/-/dict-python-4.2.22.tgz#16760f6d3f807d603127575d4589b0f5084a4be1"
+  integrity sha512-rgF7DuleVK2lkzlw33jjEfxS2a0CU5kwAhOqf5B6XkuaPbqZ/0g0LBCdwglAGccYu7sBuvxRS8Yubk+ytSAFTg==
   dependencies:
-    "@cspell/dict-data-science" "^2.0.11"
+    "@cspell/dict-data-science" "^2.0.12"
 
 "@cspell/dict-r@^2.1.1":
   version "2.1.1"
@@ -356,9 +356,9 @@
   integrity sha512-WqOUvnwcHK1X61wAfwyXq04cn7KYyskg90j4lLg3sGGKMW9Sq13hs91pqrjC44Q+lQLgCobrTkMDw9Wyl9nRFA==
 
 "@cspell/dict-software-terms@^5.1.13":
-  version "5.1.13"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-5.1.13.tgz#c85ccbc32191e90e9e839bbd20939ade026ed20d"
-  integrity sha512-bmWMOpqzCmmKFHM9hFC6o+GP20t2+uTuwksR3a6crHQqvNv3revzwQHorsWvSYx75xsdcvRYrAz7PqPEV/FG1g==
+  version "5.1.14"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-5.1.14.tgz#7490131165f0fbad7649b5214c83060b4c328e0b"
+  integrity sha512-Eu9h090hxHJiqzVFS0WxOZbYXnmb7F1RFIUEg4Nru+D/78bXVDH4b8BiKGVFNRljaieNQRAHaryzdaKJRCH6ZA==
 
 "@cspell/dict-sql@^2.2.1":
   version "2.2.1"
@@ -816,9 +816,9 @@ get-caller-file@^2.0.5:
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
 glob@^10.4.5:
-  version "10.4.5"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-10.4.5.tgz#f4d9f0b90ffdbab09c9d77f5f29b4262517b0956"
-  integrity sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.5.0.tgz#8ec0355919cd3338c28428a23d4f24ecc5fe738c"
+  integrity sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==
   dependencies:
     foreground-child "^3.1.0"
     jackspeak "^3.1.2"
@@ -1043,10 +1043,10 @@ picomatch@^4.0.3:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.3.tgz#796c76136d1eead715db1e7bad785dedd695a042"
   integrity sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==
 
-prettier@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.2.tgz#ccda02a1003ebbb2bfda6f83a074978f608b9393"
-  integrity sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==
+prettier@3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.1.tgz#8dfbf54c98e85a113962d3d8414ae82ff3722991"
+  integrity sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==
 
 randombytes@^2.1.0:
   version "2.1.0"
